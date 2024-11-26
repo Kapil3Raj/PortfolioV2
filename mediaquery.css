@@ -1,0 +1,156 @@
+@media screen and (max-width: 1500px){
+     .project_con{
+        flex-direction: column;
+     }
+}
+
+@media screen and (max-width: 1120px) {
+ 
+    #home{
+        height: auto;
+        gap:2rem;
+    }
+
+    .herocontent{
+       padding: 2rem; 
+       
+    }
+
+
+    #my_img{
+        width: 16rem;
+    
+    }
+
+    .about_img > img{
+        width: 18rem;
+        height: 22rem;
+    }
+
+    .about_text{
+        font-size: 3vw;
+
+    }
+   
+    
+
+    #cform{
+        width: 80%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .about_con2{
+        flex-direction: column;
+    }
+    
+    .about_con2 > .about_img > img{
+        width: 16rem;
+        height: 18rem;
+    }
+
+    .about_img > img{
+        width: 14rem;
+        height: 20rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    
+    .herocontent > h2{
+
+        font-size: 1.5rem;
+        
+    }
+    .herocontent > h3{
+   
+        font-size: 1rem;
+    
+    }  
+  
+    #my_img{
+        width: 13rem;
+    
+    }
+
+    #my_img_con > span::after{
+        
+        height: 80%;
+        width: 120%;
+    }
+
+    #my_img_con > span::before{
+        left: -2rem;
+        height:40% ;
+       width: 100%;
+
+    }
+    .hero_btn  svg{
+        
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .hero_btn > a > button{
+        height:2rem;
+        width: 8rem;
+        font-size:70% ;
+    }
+
+    .about_con1{
+       gap: 1.5rem;
+    }
+    .about_con2{
+       gap:1.5rem;
+    }
+    .about_con3{
+       gap:1.5rem;
+    }
+
+    .about_text{
+        font-size: 3.5vw;
+
+    }
+    
+
+    .about_img > img{
+        width: 8rem;
+        height: 13rem;
+    }
+
+    .about_con2 > .about_img > img{
+        width: 16rem;
+        height: 13rem;
+    }
+
+
+    .project_con > div{
+        width: 15rem;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 410px) {
+
+   #my_img{
+        width: 10rem;
+    
+    }
+
+    .hero_btn  svg {
+        
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
