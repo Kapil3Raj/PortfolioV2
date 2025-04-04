@@ -82,11 +82,11 @@
     #my_img_con > span::after{
         
         height: 80%;
-        width: 120%;
+        width: 90%;
     }
 
     #my_img_con > span::before{
-        left: -2rem;
+        left: 0rem;
         height:40% ;
        width: 100%;
 
